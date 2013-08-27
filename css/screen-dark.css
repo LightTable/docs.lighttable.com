@@ -1,0 +1,72 @@
+html {height:100%; }
+body { background:#202020; height:100%; color:#ddd; font-family: "Open sans", sans-serif; font-size:11pt;}
+a { text-decoration:none; color:#c9cecc;}
+strong {font-weight:bold !important; color:#7aF !important; }
+strong a { color:#7aF !important; }
+em { font-style:italic; }
+
+::-webkit-input-placeholder { color: #aaa; text-align:right; }
+::-webkit-scrollbar {background: transparent; width:7px; height:7px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { border-radius:3px; background: rgba(120,120,120,0.75); border:1px solid #777; }
+::-webkit-scrollbar-corner { background:transparent; }
+::selection { background: #aaa; }
+
+strong.highlight { background:#7af; color:#000 !important; font-weight:normal !important; border-radius:2px; }
+strong.activehighlight { background:#7ff;}
+
+iframe { margin-bottom:20px; }
+
+#wrapper {height:100%; height:100%;}
+
+#nav { background:#202020; z-index:10;  top:0; left:0px; position:fixed; width:100%; border-bottom:1px solid #999; padding-bottom:5px; padding-top:5px;}
+#nav h1 { float:left; font-size:16pt; padding:0 10px;}
+#nav ul { list-style:none; margin-top:0px; float:right; }
+#nav ul li { background:transparent; padding:5px; float:left; display:inline; border-radius:2px; }
+#nav ul li + li { margin-left:5px; }
+#nav a { color: #c9cecc; text-decoration:none; }
+#nav input { margin:0; position:absolute; font-size:11pt; color:#ccc; bottom:-30px; right:0; background:#202020; border:1px solid #999; border-radius:2px; padding:5px 10px; outline:none; border-top-left-radius:0; border-top-right-radius:0; }
+
+#nav .info { color: #9e9e9e; margin-top:100px; font-size:10pt; position:absolute; bottom:100px; }
+
+#copyright { display:none; z-index: -1; position:fixed; color: #9e9e9e; bottom:50px; right:50px;}
+
+#contentwrapper { position:absolute; top:50px; width:100%; bottom:0px; overflow:auto;  min-width:400px; box-shadow:none; padding-bottom:10px; }
+#content { max-width:600px; padding:50px; padding-top:15px; font-size:14px; padding-bottom:50px;}
+#content h2 { font-size:32px;  margin-bottom:20px; color:#7af; }
+#content h2 a { color:#fff; color:#7af; }
+#content h3 { font-size: 24px; margin-bottom:0px; margin-top:20px; }
+#content ul {list-style:inside; }
+#content ol {list-style:none; margin-left:15px; background:transparent; padding:5px; counter-reset:numbers; }
+#content ol li { position:relative; margin-bottom:5px; counter-increment:numbers; margin-left:20px; border-left:1px solid #7af; padding-left:8px; }
+#content ol li:before { -webkit-user-select:none; position:absolute; line-height:1.6em; left:-17px; content: counter(numbers); display:inline-block; padding-right:10px; color:#7af; font-size:10pt; }
+#content ol li::marker { font-size:20pt; }
+#content img { display:block; max-width:600px; width:100%; border-radius:5px; border:none; border:1px solid #3d3e3c; margin:25px 0;}
+#content p {margin: 5px 0; }
+#content p a, ol a, ul a { text-decoration:underline; }
+#content pre { font-family: Courier, monospace; font-size:10pt; background:#3d3e3c; border-radius:5px; padding:15px 20px; overflow:auto;}
+#content code { font-family: Courier, monospace; font-size:10pt; background:#3d3e3c; border-radius:2px; padding:2px; }
+#content blockquote p { font-size:11pt; background:#d8d8d8; border-radius:5px; padding:10px; box-shadow: 0 0 8px #aaa; }
+
+#content div + h2 { margin-top: 25px; }
+#content:last-child { padding-bottom:50px;}
+
+#related {margin-top:80px; }
+
+.date { color:#bbb; float:right; margin-top:15px; }
+
+.archive { list-style:none !important; margin-top:10px;}
+.archive li { float:left; margin-bottom:5px; width:100%;}
+.archive a { min-width:200px; float:left; }
+.archive span { color:#909090; float:right; }
+
+.posts { list-style:none !important; margin-top:5px;}
+.posts li { margin-bottom:5px; }
+.posts span { color: #909090; }
+.posts a { color: #bbb; text-decoration:none !important; }
+
+.others { list-style:none !important; }
+
+.lost { float:left; display:inline; width:100%; text-align:center; margin-top: 300px; font-size:24px; }
+
+#search {display:none;}

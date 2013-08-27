@@ -1,0 +1,12 @@
+---
+layout: default
+title: Light Table docs
+meta: Documentation for Kodowa's Light Table development environment
+---
+
+{% for post in site.posts %}
+<div class="post" id="{{post.link}}">
+    <h2>{{ post.title }}</h2>
+    {{ post.content }}
+</div>
+{% endfor %}
