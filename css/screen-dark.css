@@ -36,7 +36,7 @@ iframe { margin-bottom:20px; }
 #content h2 { font-size:32px;  margin-bottom:20px; color:#7af; }
 #content h2 a { color:#fff; color:#7af; }
 #content h3 { font-size: 24px; margin-bottom:0px; margin-top:20px; }
-#content ul {list-style:inside; }
+#content ul {list-style:inside; margin-top:8px; }
 #content ol {list-style:none; margin-left:15px; background:transparent; padding:5px; counter-reset:numbers; }
 #content ol li { position:relative; margin-bottom:5px; counter-increment:numbers; margin-left:20px; border-left:1px solid #7af; padding-left:8px; }
 #content ol li:before { -webkit-user-select:none; position:absolute; line-height:1.6em; left:-17px; content: counter(numbers); display:inline-block; padding-right:10px; color:#7af; font-size:10pt; }
@@ -70,3 +70,7 @@ iframe { margin-bottom:20px; }
 .lost { float:left; display:inline; width:100%; text-align:center; margin-top: 300px; font-size:24px; }
 
 #search {display:none;}
+
+#tutorial p { margin:8px 0; }
+#tutorial iframe { margin-top:15px; }
+#tutorial h3 { margin-bottom:10px; }
