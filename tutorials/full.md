@@ -1,6 +1,6 @@
 ---
 layout: tutorial
-title: "Light Table Tutorial"
+title: "Getting started with Light Table"
 ---
 
 ###Starting Light Table
