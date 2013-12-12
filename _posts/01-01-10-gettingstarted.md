@@ -8,7 +8,7 @@ tags: []
 
 ###Full tutorials
 
-* [Getting started with Python](/tutorials/python/)
+* [Getting started with Light Table](/tutorials/full/)
 
 ###Opening and creating new files
 
