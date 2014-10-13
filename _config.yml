@@ -1,3 +1,6 @@
 pygments: true
 permalink: pretty
 markdown: redcarpet
+exclude:
+- README.md
+- CONTRIBUTING.md
