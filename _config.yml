@@ -4,3 +4,4 @@ markdown: redcarpet
 exclude:
 - README.md
 - CONTRIBUTING.md
+- LICENSE.md
