@@ -43,7 +43,7 @@ In order to evaluate Javascript, HTML, or CSS, we need a browser to see the resu
 Now that we have a place to send our code, let's open a .js file and eval something:
 
 4. Create a new file and save it with a .js extension or open a .js file
-5. Press Cmd/Ctrl+Enter while the cursor is over a block of code.
+5. Press Cmd/Ctrl+Enter while the cursor is over a top-level block of code. To eval an inner block, select and then eval it.
 5. Select the webpage name from the available clients popup
 6. You'll now see results inline!
 7. Evaling from a .css file will inject the css into the page.
