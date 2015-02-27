@@ -5,3 +5,5 @@ exclude:
 - README.md
 - CONTRIBUTING.md
 - LICENSE.md
+redcarpet:
+  extensions: ["with_toc_data"]
