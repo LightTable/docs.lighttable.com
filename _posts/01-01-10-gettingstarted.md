@@ -67,7 +67,6 @@ If you want to use Light Table to do matplotlib/pylab graphs and such, you'll wa
 5. Over an expression that will return a graph, press Cmd/Ctrl+Enter
 6. You'll see the graph embedded below your expression.
 
-For something more in-depth, checkout the [getting started with Python](/tutorials/python/) tutorial.
 
 ###With the workspace tree (or how to open files)
 

@@ -3,6 +3,8 @@ layout: tutorial
 title: "Getting started with Light Table"
 ---
 
+**Note: Videos are based on an older version that has an outdated configuration format. For up-to-date configuration, see this [section for keymaps](/#configure-keybindings) and this [section for behaviors](/#configure-behaviors) **
+
 ###Starting Light Table
 
 So let’s start by simply opening Light Table. The main screen is pretty basic, but it contains an important link - Light Table’s documentation. These docs have basic directions if you ever get lost or need to figure something out. You can open the documentation at any time from the help menu, or on the web at docs.lighttable.com.
