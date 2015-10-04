@@ -3,7 +3,7 @@ layout: tutorial
 title: "Getting started with Light Table"
 ---
 
-**Note: Videos are based on an older version that has an outdated configuration format. For up-to-date configuration, see this [section for keymaps](/#configure-keybindings) and this [section for behaviors](/#configure-behaviors) **
+*Note: Videos are based on an older version that has an outdated configuration format. For up-to-date configuration, see this [section for keymaps](/#configure-keybindings) and this [section for behaviors](/#configure-behaviors) *
 
 ###Starting Light Table
 
