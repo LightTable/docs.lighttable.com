@@ -1,4 +1,4 @@
-highlighter: true
+highlighter: pygments
 permalink: pretty
 markdown: redcarpet
 exclude:
