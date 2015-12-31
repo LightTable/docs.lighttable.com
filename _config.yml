@@ -5,5 +5,8 @@ exclude:
 - README.md
 - CONTRIBUTING.md
 - LICENSE.md
+- Rakefile
+- Gemfile
+- Gemfile.lock
 redcarpet:
   extensions: ["with_toc_data"]
