@@ -64,11 +64,6 @@ Seeing inline results with Clojure is very simple - after evaluating a line or a
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/FMZphPbO8gk" frameborder="0" allowfullscreen></iframe>
 
-###Clojure in the Instarepl
-Another way to evaluate Clojure code is with the instarepl, an environment that not only evaluates your code in real time, but also shows how your values flow through your code. To open an instarepl, use the command pane to choose `Instarepl: Open a clojure instarepl`. You can also turn a regular Clojure file into an instarepl with `Instarepl: Make current editor an instarepl`. In an instarepl, your Clojure code with be automatically evaluated with results being displayed inline.
-
-<iframe width="560" height="315" src="//www.youtube.com/embed/YY6B9EHbH24" frameborder="0" allowfullscreen></iframe>
-
 ###User Keymaps and Behaviors
 While the menu, the workspace tree, and the command pane provide a way to do nearly everything in Light Table, it is often inefficient to go hunting and clicking through them to get what you want. Light Table comes with some common key bindings already in place (`Cmd-O` to open, `Cmd-S` to save, `Cmd-N` for a new file, to name a few), but you may decide there are certain actions that you take frequently enough to want a key binding. You can set these key bindings yourself by opening the command pane and typing "keymap" to bring up the option entitled `Settings: User keymap`. The markup syntax the keymap file uses may not be familiar to you, but the format is relatively easy to discern, and Light Table has auto-complete to help you find what you want. Inside the brackets, you can see two sets of brackets named `:app` and `:editor`. Key bindings set under `:app` will function in all of Light Table, regardless of whether or not you have a file open. Some good examples would be creating a key bind to toggle the workspace tree or the console. Key bindings set under `:editor` will function only when you have an editor window focused. A good example of this would be unindenting by one tab length (a convenient feature when dealing with Python's use of whitespace to indicate run order).
 

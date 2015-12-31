@@ -17,14 +17,6 @@ To open a file, use the `Open file` menu item in the `File` menu or press cmd/ct
 
 ###With Clojure
 
-If you're new to Clojure, the quickest way to get going is to use the "Instarepl" - an environment for Clojure where everything you type is evaluated immediately. To do that:
-
-1. In the view menu click the `commands` item (or press Ctrl+Space)
-2. Type "insta" and press enter when the `Instarepl: Open a clojure instarepl` command is highlighted.
-3. Type "(+ 3 4)" in the editor that was opened
-4. Wait for the client to connect. If this is your first time it may take a couple minutes while it fetches all of the Clojure client's dependencies.
-5. Once connected, type more code and see the results!
-
 If you have some Clojure code in a file already, you can get going with inline eval by:
 
 1. Create a new file and save it with a .clj extension or open a .clj file
