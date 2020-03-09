@@ -6,16 +6,16 @@ order: 1
 tags: []
 ---
 
-###Full tutorials
+### Full tutorials
 
 * [Getting started with Light Table](/tutorials/full/)
 
-###Opening and creating new files
+### Opening and creating new files
 
 To create a new file, use the `New file` menu item in the `File` menu or press cmd/ctrl-n
 To open a file, use the `Open file` menu item in the `File` menu or press cmd/ctrl-shift-o
 
-###With Clojure
+### With Clojure
 
 If you have some Clojure code in a file already, you can get going with inline eval by:
 
@@ -24,7 +24,7 @@ If you have some Clojure code in a file already, you can get going with inline e
 3. Wait for the client to connect (this can take a bit the first time)
 4. Once connected you'll see your result.
 
-###With Javascript/HTML/CSS
+### With Javascript/HTML/CSS
 
 In order to evaluate Javascript, HTML, or CSS, we need a browser to see the result in. To open a browser tab in Light Table:
 
@@ -41,7 +41,7 @@ Now that we have a place to send our code, let's open a .js file and eval someth
 7. Evaling from a .css file will inject the css into the page.
 8. Evaling from an .html file will refresh the browser tab.
 
-###With Python
+### With Python
 
 Getting started with Python is as simple as:
 
@@ -60,7 +60,7 @@ If you want to use Light Table to do matplotlib/pylab graphs and such, you'll wa
 6. You'll see the graph embedded below your expression.
 
 
-###With the workspace tree (or how to open files)
+### With the workspace tree (or how to open files)
 
 Opening each file individually through the native open dialogs isn't very efficient. The `workspace` tree allows you to instead add files and folders into a file explorer that you can then use to open/rename/delete/etc the files you're interested in. To open the workspace tree, click the `Workspace` item in the view menu. You can then add files or folders to the workspace using the buttons at the top.
 
@@ -74,7 +74,7 @@ When you open a new window of Light Table, you'll be given a new blank workspace
 
 ![workspace tab recent](/images/start/wsrecent.png)
 
-###With the Navigate pane
+### With the Navigate pane
 
 Once you have files and folders in your workspace, the `navigate` pane provides the quickest way to open a file by name. Opening it is bound to Cmd/Ctrl+O by default.
 
@@ -84,7 +84,7 @@ The navigate tab is a "filter list" where typing in the top input will filter th
 
 ![navigate tab filtered](/images/start/navi2.png)
 
-###With the Connections pane
+### With the Connections pane
 
 The `connect` pane shows you a list of currently connected "clients" that can be used for doing language operations like eval. To open it, use the `Connections` item in the `View` menu or the `Connect: Show connect bar` command.
 
@@ -98,7 +98,7 @@ The `connect` tab also allows you to explicitly add a connection to a client, by
 
 ![connect tab](/images/start/conadd.png)
 
-###With the Command pane
+### With the Command pane
 
 The `command` pane is your one stop shop to figure out if Light Table can do something. It's a filter list like navigate that presents a list of all the visible commands in Light Table. Want to open a file or change some setting? Type "open file" or "setting" to filter down to what you want to do and then press enter to do it. Opening the `command` pane is bound to Ctrl+Space by default, but you can use the `Commands` item in the `View` menu as well.
 
