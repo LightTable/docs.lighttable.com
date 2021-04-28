@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: pygments.rb
+    versions:
+    - 2.0.0
+    - 2.1.0
+  - dependency-name: kramdown
+    versions:
+    - 2.3.0
